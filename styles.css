@@ -1,0 +1,338 @@
+/* Estilos generales */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Encabezado */
+
+header {
+  background-color: #e0f4f7;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+/* Sección de introducción */
+
+#inicio {
+  background-color: #eae9f1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#inicio h1 {
+  color: #424874;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#inicio p {
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #a29bc7;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #7c74a6;
+}
+
+/* Sección de menú */
+
+#menu {
+  background-color: #f7e4e6;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#menu h2 {
+  color: #cc4466;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  color: #424874;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menu-item .price {
+  color: #cc4466;
+  font-weight: bold;
+}
+
+.menu-item .cta-button {
+  display: inline-block;
+  background-color: #a29bc7;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.menu-item .cta-button:hover {
+  background-color: #7c74a6;
+}
+
+/* Sección de reservaciones */
+
+#reservaciones {
+  background-color: #e1e9f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#reservaciones h2 {
+  color: #446fcc;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#reservaciones form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#reservaciones input,
+#reservaciones button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#reservaciones button {
+  background-color: #a29bc7;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+#reservaciones button:hover {
+  background-color: #7c74a6;
+}
+
+/* Sección de contacto */
+
+#contacto {
+  background-color: #f4e6f2;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#contacto h2 {
+  color: #cc66a1;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#contacto p {
+  color: #424874;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+}
+
+#contacto form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#contacto input,
+#contacto textarea,
+#contacto button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#contacto button {
+  background-color: #a29bc7;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+#contacto button:hover {
+  background-color: #7c74a6;
+}
+
+/* Sección "Nosotros" */
+
+#nosotros {
+  background-color: #f1e8f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#nosotros h2 {
+  color: #6644cc;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#nosotros p {
+  color: #424874;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#nosotros img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Sección de testimonios */
+
+#testimonios {
+  background-color: #e6f2e1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#testimonios h2 {
+  color: #66cc44;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial blockquote {
+  color: #424874;
+}
+
+.testimonial blockquote p {
+  margin-bottom: 10px;
+}
+
+.testimonial blockquote cite {
+  color: #777;
+}
+
+/* Pie de página */
+
+footer {
+  background-color: #e8f4e1;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+
+footer p {
+  color: #777;
+  font-size: 14px;
+}
